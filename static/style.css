@@ -1,0 +1,157 @@
+body{
+    background-color: cadetblue;
+}
+
+header{
+    margin: 0px;
+    display: flex;
+}
+
+.header-element{
+    height: 50px;
+    display: flex;
+    border: 2px solid black;
+    background-color: darkslategrey;
+    flex-grow: 1;
+    margin: auto;
+}
+
+.header-btn{
+    margin: auto;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.img-logo-header,
+.ing-contact-header{
+    margin: auto;
+    border-radius: 50%;
+    max-width:100%;
+    height:100%;
+}
+
+.ing-contact-header{
+    cursor: pointer;
+}
+
+.frame-3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 300px;
+    font-size: 5em;
+}
+
+.frame-3 p{
+    margin: auto;
+}
+
+.frame-4{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-height: 200px;
+
+}
+
+.frame-4 .frame-4-inner{
+    margin: 0px;
+    display: flex;
+    width: 50%;
+    border: 2px solid black;
+}
+
+.frame-4 .text{
+    margin: auto;
+}
+
+.frame-4-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.frame-4-btns{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.frame-5{
+    min-height: 200px;
+    background-color: darkslategrey;
+    display: flex;
+}
+
+.frame-5 .text{
+    margin: auto;
+}
+
+.frame-6{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    background-color: aqua;
+    min-height: 150px;
+}
+
+.frame-6 .text{
+    margin: auto;
+}
+
+.frame-7{
+    display: flex;
+    margin: 10px;
+    min-height: 300px;
+    background-color: aliceblue;
+}
+
+.frame-7 .btn-frame-7{
+    background-color: darkslategrey;
+    width: 30%;
+    min-height: 50px;
+    border: none;
+    margin: auto;
+    cursor: pointer;
+}
+
+.frame-no-8-but-9{
+    background-color: cadetblue;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.frame-no-8-but-9 .card-frame-8{
+    background-color: aliceblue;
+    min-height: 150px;
+    min-width: 80px;
+    margin: auto;
+    display: flex;
+}
+
+.card-frame-8 p{
+    margin: auto;
+}
+
+footer{
+    margin-top: 30px;
+    min-height: 60px;
+    display: flex;
+    background-color: cornflowerblue;
+}
+
+.footer-btn{
+    background-color: cornflowerblue;
+    margin: auto;
+    color: white;
+    cursor: pointer;
+    height: 30px;
+    border: 2px solid white
+}
+
